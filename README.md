@@ -13,7 +13,7 @@ When you are ready to begin
 
 docker run -p 5000:5000 -it yourname/dockerfile
 
-(Bash is also installed in this container - feel free to substitute) 
+(When doing a docker exec, bash is also installed in this container - feel free to use ash) 
 
 
 In addition, you can also pull kenlavoie/flaskapi, and use that with the above command vs building yourself 
