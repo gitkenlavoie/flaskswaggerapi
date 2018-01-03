@@ -15,7 +15,7 @@ def meals(breakfast):
       - name: breakfast
         in: path
         type: string
-        enum: ['Eggs', 'Toast', 'Coffee']
+        enum: ['Eggs', 'Hashbrowns', 'Coffee']
         required: true
         default: all
     definitions:
